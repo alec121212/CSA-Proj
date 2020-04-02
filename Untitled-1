@@ -1,0 +1,40 @@
+Plan
+
+WE INITIALLY DID THIS IN A GOOGLE DOC BUT THE FORMATTING IS MESSED UP IN THIS 
+
+Blackjack
+As many decks as user wants (for loop etc)
+Start with initial amount
+Beat the dealer by getting closest to 21
+Subtract output (card) from array with cards
+Track users total losses and wins in a document
+Possibly after we finished^
+Add visual cards + chips + maybe table?
+Code in burn cards
+
+
+Purpose	
+See how casino vs player benefits financially
+Features
+Bet
+Double
+Stand
+Balance
+Subtraction and addition of balance
+Tracker of loss/gain
+If they win or lose a lot kick them out or give benefits etc
+Design/Analysis
+Classes
+Text file 
+Dealer
+Card array
+User interface
+Game function
+Money 
+Player 
+Count cards
+Implementation
+VS Code
+Github
+Text files
+Java swing
