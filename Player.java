@@ -52,13 +52,13 @@ public int getHandSum(){
 }
 
 public void printHand(boolean showFirstCard){
-
-  System.out.printf("%s's cards:\n",this.name);
+    //NEED TO FIX THIS --> 
+  System.out.printf("Dealers cards:\n",this.name);
   for(int c = 0; c< this.numCards; c++){
     if(c == 0 && !showFirstCard){
       System.out.println("   [hidden]");
     } else {
-      System.out.printf("   %s\n", this.hand[c].toString());
+      System.out.printf("Players\n", this.hand[c].toString());
     }
   }
 
